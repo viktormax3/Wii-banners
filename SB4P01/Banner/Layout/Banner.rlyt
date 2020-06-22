@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nw4r_layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2.0" xmlns="http://www.nintendo.co.jp/NW4R/LayoutEditor">
+  <head>
+    <create user="ViktorMax" host="ViktorMax-PC" date="2020-05-15T01:19:34.4108478-04:00" source="" />
+    <title />
+    <comment />
+    <generator name="NW4R LayoutEditor Core" version="2007_11_00_000" />
+  </head>
+  <body>
+    <rlyt>
+      <paneSet>
+        <pane kind="Picture" name="PicLogo">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="81.9636459" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="440" y="216" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicLogo">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyTitleLogoBanner" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicLogo">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoBanner" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="TM">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="69.16666" y="31" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="24" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="TM">
+              <blackColor r="100" g="100" b="100" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyTitleLogoTM" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="TM">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="100" g="100" b="100" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoTM" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicJPNTitle">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="-15.5430918" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="288" y="32" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicJPNTitle">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="0" g="0" b="0" />
+              <texMap imageName="MyTitleLogoBannerJPN" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicJPNTitle" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="0" g="0" b="0" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoBannerJPN" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarS">
+          <comment />
+          <basePositionType x="Center" y="Bottom" />
+          <translate x="-0" y="-150" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="810" y="380" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarS">
+              <blackColor r="0" g="160" b="255" />
+              <whiteColor r="0" g="160" b="255" />
+              <texMap imageName="MyMapStar" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMap imageName="MyMapStar" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMatrix rotate="40">
+                <scale x="64" y="36" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texMatrix rotate="0">
+                <scale x="32" y="18" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="1" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <textureStage texMap="1" texCoordGen="1" />
+              <texBlendRatio color="255" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarS" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="160" b="255" a="0" />
+              <tevColReg r="0" g="160" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyMapStar" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMap imageName="MyMapStar" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMatrix rotate="40">
+                <scale x="64" y="36" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texMatrix rotate="0">
+                <scale x="32" y="18" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="1" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="1" texCoordGen="1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="TexC" d="V0" konst="K0" op="Add" bias="V0" scale="V4" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicDolby" locationAdjust="true">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="229" y="-77" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="96" y="48" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicDolby">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="0" g="0" b="0" />
+              <texMap imageName="dolby_p2_96x48" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicDolby">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="0" g="0" b="0" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="dolby_p2_96x48" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash1">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-40" y="132" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash1">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash1" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash2">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="71.66667" y="129.484589" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash2">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash2" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash3">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-114.166641" y="86.1171646" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash3">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash3" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash4">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="19.1666679" y="87.65318" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash4">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash4" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash5">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-72" y="28" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash5">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash5" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash6">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="35" y="30.17003" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="32" y="32" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash6">
+              <blackColor r="255" g="150" b="40" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash6" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="150" b="40" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicLogoShine" visible="false" alpha="0">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="80.9636154" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="3.5" y="3.5" />
+          <size x="288" y="176" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicLogoShine">
+              <blackColor r="255" g="255" b="255" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyTitleLogoBloom" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicLogoShine" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoBloom" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="V1_0" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicFlash" visible="false" alpha="0">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="608" y="456" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicFlash">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="Base" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicFlash">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="Base" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicNinLogo" locationAdjust="true">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-220.669983" y="177" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="112" y="32" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicNinLogo">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="0" g="0" b="0" />
+              <texMap imageName="nintendo_112x32" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicNinLogo">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="0" g="0" b="0" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="nintendo_112x32" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="R">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="69" y="32.63366" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="24" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="R">
+              <blackColor r="210" g="210" b="210" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyTitleLogoR" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="R">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="210" g="210" b="210" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoR" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicSmoke" alpha="0">
+          <comment />
+          <basePositionType x="Center" y="Bottom" />
+          <translate x="-0" y="-150" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="608" y="380" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicSmoke">
+              <blackColor r="255" g="255" b="255" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyMapIndSmoke" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicSmoke" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyMapIndSmoke" wrap_s="Repeat" wrap_t="Repeat" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicCloud">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="31" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1.2" y="1.2" />
+          <size x="812" y="400" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicCloud">
+              <blackColor r="154" g="206" b="255" />
+              <whiteColor r="240" g="240" b="235" />
+              <texMap imageName="MyBannerCloud" wrap_s="Repeat" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="2" y="1" />
+                <translate x="0" y="-0.02" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicCloud">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="154" g="206" b="255" a="0" />
+              <tevColReg r="240" g="240" b="235" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerCloud" wrap_s="Repeat" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="2" y="1" />
+                <translate x="0" y="-0.02" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicSpace">
+          <comment />
+          <basePositionType x="Center" y="Top" />
+          <translate x="0" y="228" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="812" y="378" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicSpace">
+              <blackColor r="34" g="85" b="212" a="255" />
+              <whiteColor r="100" g="190" b="255" />
+              <texMap imageName="MyBannerBG" wrap_s="Mirror" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="2" y="1" />
+                <translate x="0.5" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicSpace">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="34" g="85" b="212" a="255" />
+              <tevColReg r="100" g="190" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerBG" wrap_s="Mirror" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="2" y="1" />
+                <translate x="0.5" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="RasC" b="V0" c="V0" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="RasA" b="V0" c="V0" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicTicoKira" alpha="240">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="149" y="123" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="96" y="96" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicTicoKira">
+              <blackColor r="255" g="248" b="78" />
+              <whiteColor r="255" g="248" b="78" />
+              <texMap imageName="MyTitleLogoBannerTicoKira" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicTicoKira" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="248" b="78" a="0" />
+              <tevColReg r="255" g="248" b="78" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoBannerTicoKira" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicTico">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="149" y="123" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.8" y="0.8" />
+          <size x="80" y="80" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicTico">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="MyTitleLogoBannerTico" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicTico" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyTitleLogoBannerTico" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="None" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash10">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="175.4" y="94" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="16" y="16" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash10">
+              <blackColor r="255" g="248" b="78" />
+              <whiteColor r="255" g="250" b="170" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash10" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="248" b="78" a="0" />
+              <tevColReg r="255" g="250" b="170" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash7">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="139.3" y="154" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="16" y="16" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash7">
+              <blackColor r="255" g="248" b="78" />
+              <whiteColor r="255" g="250" b="170" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash7" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="248" b="78" a="0" />
+              <tevColReg r="255" g="250" b="170" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash8">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="117.3" y="134.5" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="16" y="16" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash8">
+              <blackColor r="255" g="248" b="78" />
+              <whiteColor r="255" g="250" b="170" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash8" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="248" b="78" a="0" />
+              <tevColReg r="255" g="250" b="170" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="PicStarFlash9">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="164.166687" y="88.6666946" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0" y="0" />
+          <size x="16" y="16" />
+          <picture detailSetting="true">
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="255" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="255" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="PicStarFlash9">
+              <blackColor r="255" g="248" b="78" />
+              <whiteColor r="255" g="250" b="170" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <textureStage texMap="0" texCoordGen="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialRevo name="PicStarFlash9" tevStageNum="2">
+              <channelControl channel="Color0" materialSource="Vertex" />
+              <channelControl channel="Alpha0" materialSource="Vertex" />
+              <matColReg r="255" g="255" b="255" a="255" />
+              <tevColReg r="255" g="248" b="78" a="0" />
+              <tevColReg r="255" g="250" b="170" a="255" />
+              <tevColReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="MyBannerKira" wrap_s="Mirror" wrap_t="Mirror" />
+              <texMatrix rotate="0">
+                <scale x="2" y="2" />
+                <translate x="0.5" y="0.5" />
+              </texMatrix>
+              <texCoordGen func="Mtx2x4" srcParam="Tex0" matrix="0" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <swapTable r="Red" g="Green" b="Blue" a="Alpha" />
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </indirectMatrix>
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <indirectStage texMap="0" texCoordGen="0" scale_s="V1" scale_t="V1" />
+              <tevStage colorChannel="ColorNull" texMap="0" texCoordGen="0" rasColSwap="0" texColSwap="0">
+                <color a="C0" b="C1" c="TexC" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <alpha a="A0" b="A1" c="TexA" d="V0" konst="K3_a" op="Add" bias="V0" scale="V1" clamp="false" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <tevStage colorChannel="Color0a0" texMap="-1" texCoordGen="-1" rasColSwap="0" texColSwap="0">
+                <color a="V0" b="CPrev" c="RasC" d="V0" konst="K0" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <alpha a="V0" b="APrev" c="RasA" d="V0" konst="K0_a" op="Add" bias="V0" scale="V1" clamp="true" outReg="Prev" />
+                <indirect indStage="0" format="V8" bias="STU" matrix="Off" wrap_s="Off" wrap_t="Off" addPrev="false" utcLod="false" alpha="Off" />
+              </tevStage>
+              <alphaCompare comp0="Always" ref0="0" op="And" comp1="Always" ref1="0" />
+              <blendMode type="Blend" srcFactor="SrcAlpha" dstFactor="InvSrcAlpha" op="Copy" />
+            </materialRevo>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="PicStarFlash">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-1.758337E-07" y="-82.00002" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="BannerBG" locationAdjust="true">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="BG">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="Star">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="-0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="Cloud">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="-0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="SMGTitleLogo" locationAdjust="true">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="47" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1.2" y="1.2" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="TitleLogo">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-0" y="-81.9636459" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="Effrct">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="Logo">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="0" y="0" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+      </paneSet>
+      <paneHierarchy>
+        <paneTree name="RootPane">
+          <paneTree name="BannerBG">
+            <paneTree name="BG">
+              <paneTree name="PicSpace" />
+            </paneTree>
+            <paneTree name="Star">
+              <paneTree name="PicStarS" />
+            </paneTree>
+            <paneTree name="Cloud">
+              <paneTree name="PicCloud" />
+            </paneTree>
+          </paneTree>
+          <paneTree name="SMGTitleLogo">
+            <paneTree name="TitleLogo">
+              <paneTree name="PicTicoKira" />
+              <paneTree name="PicTico" />
+              <paneTree name="PicLogo" />
+              <paneTree name="PicJPNTitle" />
+              <paneTree name="PicLogoShine" />
+              <paneTree name="TM" />
+              <paneTree name="R" />
+            </paneTree>
+            <paneTree name="PicStarFlash">
+              <paneTree name="PicStarFlash1" />
+              <paneTree name="PicStarFlash2" />
+              <paneTree name="PicStarFlash3" />
+              <paneTree name="PicStarFlash4" />
+              <paneTree name="PicStarFlash5" />
+              <paneTree name="PicStarFlash6" />
+              <paneTree name="PicStarFlash7" />
+              <paneTree name="PicStarFlash8" />
+              <paneTree name="PicStarFlash9" />
+              <paneTree name="PicStarFlash10" />
+            </paneTree>
+          </paneTree>
+          <paneTree name="Effrct">
+            <paneTree name="PicSmoke" />
+            <paneTree name="PicFlash" />
+          </paneTree>
+          <paneTree name="Logo">
+            <paneTree name="PicDolby" />
+            <paneTree name="PicNinLogo" />
+          </paneTree>
+        </paneTree>
+      </paneHierarchy>
+      <groupSet>
+        <group name="RootGroup">
+          <group name="JPN">
+            <paneRef name="PicJPNTitle" />
+            <paneRef name="R" />
+            <comment />
+          </group>
+          <group name="ENG">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="GER">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="FRA">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="SPA">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="ITA">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="NED">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <group name="CHN">
+            <paneRef name="TM" />
+            <comment />
+          </group>
+          <comment />
+        </group>
+      </groupSet>
+      <screenSetting origin="Normal">
+        <layoutSize x="608" y="456" />
+        <backGround>
+          <color r="169" g="169" b="169" a="255" />
+        </backGround>
+        <grid thickLineInterval="40" thinDivisionNum="4" visible="true" moveMethod="None">
+          <color r="128" g="128" b="64" a="128" />
+        </grid>
+      </screenSetting>
+      <textureFile imagePath="..\texture\Base.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyBannerBG.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyBannerCloud.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyBannerKira.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyMapIndSmoke.tga" format="I8" />
+      <textureFile imagePath="..\texture\MyMapStar.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyTitleLogoBannerJPN.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyTitleLogoBannerTico.tga" format="RGB5A3" />
+      <textureFile imagePath="..\texture\MyTitleLogoBannerTicoKira.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyTitleLogoBloom.tga" format="I8" />
+      <textureFile imagePath="..\texture\MyTitleLogoR.tga" format="I4" />
+      <textureFile imagePath="..\texture\nintendo_112x32.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyTitleLogoTM.tga" format="I4" />
+      <textureFile imagePath="..\texture\dolby_p2_96x48.tga" format="I4" />
+      <textureFile imagePath="..\texture\MyTitleLogoBanner.tga" format="RGB5A3" />
+    </rlyt>
+  </body>
+</nw4r_layout>
